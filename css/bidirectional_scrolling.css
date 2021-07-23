@@ -4,7 +4,7 @@
 *
 *********************************/
 :root {
-    --movie-width: 15.5vw;
+    --movie-width: 15.7vw;
     --movie-height: 200px;
     --arrow-width: 50px;
     --slider-py: 200px;
@@ -16,7 +16,7 @@
   }
   
   body {
-    background-color: #141414;
+
     font-family: "Heebo", sans-serif;
   }
   
@@ -37,13 +37,17 @@
   *********************************/
   .slider {
     width: 100%;
+    /* overflow: scroll; */
     overflow-x: scroll;
     overflow-y: visible;
     white-space: nowrap;
     position: relative;
-    padding-top: var(--slider-py);
+    padding-top: 80px;
     padding-bottom: var(--slider-py);
-  }
+  }::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
   
   /*
   *
@@ -180,7 +184,7 @@
     outline: none;
     border: none;
     color: white;
-    top: var(--slider-py);
+    top: 80px;
     z-index: 5;
     visibility: hidden;
   }
