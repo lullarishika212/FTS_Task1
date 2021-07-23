@@ -92,6 +92,19 @@ input:focus{
     height: 20em;
     width: auto;
 }
+.flex-button{
+    background-color: white;
+    border: solid #1a1336;
+    border-radius: 30px;
+    padding: 1em 2em;
+    width: 12em;
+    margin-top: 1em;
+}
+.flex-button > a{
+    color: #1a1336;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
 hr {
     height: 10px;
     border: 0;
