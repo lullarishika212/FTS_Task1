@@ -92,3 +92,13 @@ input:focus{
     height: 20em;
     width: auto;
 }
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  }
+.scroll-head{
+    background-color: #1a1336;
+    color: white;
+    padding: 1rem 6.8rem;
+}
